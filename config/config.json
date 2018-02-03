@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "testingUserName",
+    "password": "testingPass",
+    "database": "testingdb",
+    "port": 3306,
+    "host": "testingdb.ccibkyyji0rd.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "testingUserName",
+    "password": "testingPass",
+    "database": "testingdb",
+    "port": 3306,
+    "host": "testingdb.ccibkyyji0rd.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "RDSDB_URL",
+    "dialect": "mysql"
+  }
+}
